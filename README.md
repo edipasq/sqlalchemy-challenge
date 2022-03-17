@@ -1,31 +1,27 @@
 # sqlalchemy-challenge
- SQLAlchemy Homework - Surfs Up!
+ SQLAlchemy - Surfs Up!
  ![image](https://user-images.githubusercontent.com/88738293/158872188-cb8d0fcf-75b0-4180-a606-6a5d1c30d5fc.png)
 
-
-
-
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
+ Honolulu, Hawaii! Climate Analysis on the area.
 
 ## Step 1 - Climate Analysis and Exploration
 
-To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
+Python and SQLAlchemy was used to do basic climate analysis and data exploration of the climate database. The following analysis was completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* Used[hawaii.sqlite](Resources/hawaii.sqlite) files to complete the climate analysis and data exploration.
 
-* Use SQLAlchemy `create_engine` to connect to your sqlite database.
+* Used SQLAlchemy `create_engine` to connect to sqlite database.
 
-* Use SQLAlchemy `automap_base()` to reflect your tables into classes and save a reference to those classes called `Station` and `Measurement`.
+* Used SQLAlchemy `automap_base()` to reflect tables into classes and save a reference to those classes called `Station` and `Measurement`.
 
 * Link Python to the database by creating an SQLAlchemy session.
 
-* **Important** Don't forget to close out your session at the end of your notebook.
 
 ### Precipitation Analysis
 
 * Start by finding the most recent date in the data set.
 
-* Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. **Note** you do not pass in the date as a variable to your query.
+* Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. 
 
 * Select only the `date` and `prcp` values.
 
