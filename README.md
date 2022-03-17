@@ -1,7 +1,9 @@
 # sqlalchemy-challenge
  SQLAlchemy Homework - Surfs Up!
+ ![image](https://user-images.githubusercontent.com/88738293/158872188-cb8d0fcf-75b0-4180-a606-6a5d1c30d5fc.png)
 
-![surfs-up.png](Images/surfs-up.png)
+
+
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
